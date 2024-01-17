@@ -28,3 +28,7 @@ Click on the "Fork" button at the top right corner of the repository to create a
 
 
 ### Step 2: Run on a Local Server
+
+
+### deployed on github Pages :
+[Github Pages Link](https://sandeep0009.github.io/githubRepo/)
