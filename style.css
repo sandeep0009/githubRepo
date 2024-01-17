@@ -1,0 +1,86 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+   
+    color: black;
+}
+
+
+#input{
+
+    height: 30px;
+    width: 320px;
+    border-radius: 19px;
+    border:#e66465;
+}
+
+input{
+    outline: none;
+    
+}
+.container{
+    display: flex;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    width: 100%;
+}
+
+.set-length{
+    margin-top: 12px;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    margin-top: 12px;
+    border-radius: 12px;
+   background-color:rgb(148, 42, 30)  ;
+    border: none;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: #fa6666;
+}
+
+.container-id{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+img{
+    border-radius: 50%;
+    height: 220px;
+    width: 200px;
+}
+
+
+
+
+  #repoList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 12px;
+  }
+
+  #repoList div{
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+
+  #repoList span{
+        font-weight: bold;
+        color: rgb(32, 32, 33);
+  }
+  #pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  } 

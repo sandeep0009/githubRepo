@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+
+    <div class="input-container">
+      <input type="text" placeholder="Search for the GitHub Id" id="input" />
+
+
+    </div>
+
+    <div class="set-length">
+      <input type="number" placeholder="Search for repoPerPage" id="inputRepo" value="10" min="1" max="100">
+
+    </div>
+   
+
+
+    <button onclick="fetchData()">Search</button>
+
+
+  </div>
+
+  <div id="main"></div>
+
+
+ <script src="app.js"></script>
+</body>
+</html>
